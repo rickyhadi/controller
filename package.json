@@ -10,7 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "appconfig": "git+https://github.com/rickyhadi/appconfig.git",
+    "checkavailability": "git+https://github.com/rickyhadi/checkavailability.git",
+    "editprofile": "git+https://github.com/rickyhadi/editprofile.git",
     "helper": "git+https://github.com/rickyhadi/helper.git",
+    "login": "git+https://github.com/rickyhadi/login.git",
+    "logout": "git+https://github.com/rickyhadi/logout.git",
+    "register": "git+https://github.com/rickyhadi/register.git",
     "renderer": "git+https://github.com/rickyhadi/renderer.git",
     "routeconfig": "git+https://github.com/rickyhadi/routeconfig.git"
   }
