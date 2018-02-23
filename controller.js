@@ -6,7 +6,7 @@ function controller(app){
 	var helper = require('helper')();
 
 	for(r in routeConfig.Router){
-		var routeobject = require(routeConfig.Router[r])(appConfig, renderer, helper);
+		var routeobject = require(routeConfig.Router[r]);
 		app.use(r, routeobject);
 	}
 
