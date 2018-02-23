@@ -2,8 +2,8 @@ function controller(app){
 	var rootdir = env.rootdir || __dirname;
 	var routeConfig = require('routeconfig');
 	var appConfig = require('appconfig');
-	var renderer = require('renderer');
-	var helper = require('helper');
+	var renderer = require('renderer')();
+	var helper = require('helper')();
 
 	for(r in routeConfig.Router){
 		var routeobject = require(routeConfig.Router[r])(appConfig, renderer, helper);
